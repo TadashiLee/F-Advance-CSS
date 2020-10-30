@@ -28,11 +28,11 @@
   <main class="main">
     <section class="about-archives">
       <section class="about">
-        <h2>About</h2>
+        <h2 class="about-h2">About</h2>
         <p>Etiam porta sem malesuoda mogna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
       </section>
       <section class="archives">
-        <h2>Archives</h2>
+        <h2 class="archives-h2">Archives</h2>
         <ul class="archives-items">
           <li>January 2020</li>
           <li>December 2019</li>
@@ -48,13 +48,13 @@
       </section>
     </section>
     <section class="article1-article3">
-      <section class="article1">
+      <section class="article">
         <img class="article-img" src="./img.png"/>
         <h2 class="article-h2">Article 1</h2>
         <p class="article-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nlbh.</p>
         <p class="view-details">View details >></p>
       </section>
-      <section class="article3">
+      <section class="article">
         <img class="article-img" src="./img.png"/>
         <h2 class="article-h2">Article 3</h2>
         <p class="article-text">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta flls eulsmod semper. Fusce daplbus,
@@ -73,13 +73,15 @@
         <p class="view-details">View details >></p> 
     </section>
     <form class="form">
-      <input type="text" value="Email address">
-      <input type="text" value="Password">
-      <input type="checkbox" >Remember me
-      <input type="submit" value="Sign in">
+      <input type="text"  placeholder="Email address" class="input">
+      <input type="text"  placeholder="Password" class="input">
+      <label class="remember-me"><input type="checkbox" class="checkbox">Remember me</label>
+      <input type="submit" value="Sign in" class="submit">
     </form>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    
+  </footer>
   <script src="src/app.js"></script>
 </body>
 </html>
