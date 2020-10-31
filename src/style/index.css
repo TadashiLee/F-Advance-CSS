@@ -21,6 +21,7 @@ ul {
 
 .header {
   height: 60px;
+  width: 1349px;
   background-color: #262626;
   color: #b8c1ca;
 }
@@ -34,6 +35,7 @@ ul {
 
 .main {
   display: flex;
+  width: 1349px;
   justify-content: space-around;
   padding: 30px 50px;
 }
@@ -128,6 +130,7 @@ ul {
 }
 
 .footer {
+  width: 1349px;
   background-color: #f9f9f9;
   color: #a7adb3;
   display: flex;
